@@ -13,6 +13,16 @@ public abstract class Rider {
 	protected String name;
 	protected Double premium;
 
+	public Rider()
+	{
+		
+	}
+	
+	public Rider(String name, Double percentOfPremium)
+	{
+		this.name = name;
+		this.perCentOfPremium = percentOfPremium;
+	}
 	/**
 	 * @return the perCentOfSumAssured
 	 */
